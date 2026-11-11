@@ -1,0 +1,157 @@
+/* ===== COULEURS ET PAGE ===== */
+body {
+  background-color: #000000;          /* fond noir */
+  color: #FFFFFF;                     /* texte blanc */
+  font-family: Impact, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+a { color: #E60012; text-decoration: none; }
+a:hover, a:focus {
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* ===== TEXTE ===== */
+p {
+  color: #FFFFFF;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1em;
+  text-align: justify;
+  text-indent: 2em;                   /* retrait de première ligne */
+}
+
+h1 {
+  color: #FFFFFF;
+  background-color: #E60012;          /* bandeau rouge */
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+
+h2 {
+  color: #E60012;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #FFFFFF;
+  background-color: #E60012;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+h4 { color: #FFFFFF; font-variant: small-caps; }
+h6 { color: #E60012; text-align: center; }
+
+/* ===== LISTES ===== */
+ul { list-style-type: square; }
+ol { list-style-type: decimal-leading-zero; }
+li { color: #FFFFFF; }
+
+/* ===== IMAGES ===== */
+img { border: 3px solid #E60012; }
+
+/* ===== ZONES DU SITE ===== */
+#navigation {
+  background-color: #E60012;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+#navigation a {
+  color: #000000;
+  margin: 0 15px;
+}
+
+#navigation a:hover {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+#contenu {
+  background-color: #111111;
+  color: #FFFFFF;
+  padding: 20px;
+  border-left: 8px solid #E60012;
+}
+
+#pied {
+  background-color: #E60012;
+  color: #000000;
+  text-align: center;
+  font-size: 0.8em;
+}
+#bandeau {
+  background-image: url(images/bandeau.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  border-bottom: 5px solid #E60012;
+}
+h1, h2, h3 {
+  color: #E60012;
+  text-shadow:
+    /* contour blanc (intérieur) */
+    -2px -2px 0 #FFFFFF,
+     2px -2px 0 #FFFFFF,
+    -2px  2px 0 #FFFFFF,
+     2px  2px 0 #FFFFFF,
+    /* contour noir (extérieur) */
+    -4px -4px 0 #000000,
+     4px -4px 0 #000000,
+    -4px  4px 0 #000000,
+     4px  4px 0 #000000,
+     0   -4px 0 #000000,
+     0    4px 0 #000000,
+    -4px  0   0 #000000,
+     4px  0   0 #000000;
+}
+.futaba {
+  letter-spacing: 15px;       /* espace entre les lettres */
+  text-align: center;         /* titre centré */
+  text-transform: uppercase;
+  padding: 15px 0;            /* espace au-dessus et en dessous du texte */
+  margin-top: 40px;           /* espace avant le titre */
+  margin-bottom: 20px;        /* espace après le titre */
+  border-top: 4px solid #E60012;
+  border-bottom: 4px solid #E60012;
+  font-size: 2.5em;
+}
+.banniere {
+  background-color: #E60012;   /* fond rouge */
+  color: #FFFFFF;              /* texte blanc */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding: 15px 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0 #000000;   /* petite ombre noire */
+}
+.important { font-weight: bold; color: #E60012; }
+h2 { word-spacing: 10px; }
+q { quotes: "«" "»"; }
+.colonnes {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-width: 2px;
+  column-rule-color: #E60012;
+}
+ul { list-style-type: square; list-style-position: inside; }
+sup, sub { font-size: 0.8em; }
+sup { vertical-align: super; }
+}
